@@ -1,0 +1,19 @@
+{
+  "koronaVerileri": [
+    {
+      "vakaSayisi": {
+        "TR": "117,589",
+        "dunyaGeneli": "3,192,545"
+      },
+      "oluSayisi": {
+        "TR": "3,081",
+        "dunyaGeneli": "226,294"
+      },
+      "iyilesmeSayisi": {
+        "TR": "44,022",
+        "dunyaGeneli": "988,067"
+      }
+    }
+  ],
+  "sunucu_saat": "29/04 22:33:51"
+}

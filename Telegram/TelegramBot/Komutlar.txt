@@ -1,0 +1,14 @@
+iftar - <il> İftar'a Kalan Süre
+sahur - <il> Sahur'a Kalan Süre
+udemy - <TR> veya <EN> discudemy ilk sayfa kuponları
+eczane - <il> <ilçe> Nöbeçi Eczane
+korona - Anlık Korona Verileri
+emlak - <il> <ilçe> Hürriyet Emlak Kiralık
+google - <aranacak şey> Google
+gg - <aranacak şey> Goygoy Google
+deldog - <mesaj yanıtla> deldog'py çıktısı veriri
+admin - Yönetici Listesi (Gruplarda!)
+bot - Bot Listesi (Gruplarda!)
+silik - Silinmiş Hesap Sayısı (Gruplarda!)
+hayalet - Hayalet Hesap Sayısı (Gruplarda!)
+ping - Hayatta Olup Olmadığı Sorgulaması

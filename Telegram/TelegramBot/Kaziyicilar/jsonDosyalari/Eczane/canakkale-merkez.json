@@ -1,0 +1,19 @@
+{
+  "nobetciEczaneler": [
+    {
+      "eczane_adi": "Bahar Eczanesi",
+      "eczane_adresi": "Atatürk Caddesi, No:88/1-A Köprübaşı Cuma Pazarı Karşısı Merkez / Çanakkale",
+      "eczane_telefon": "0 (286) 217-25-07"
+    },
+    {
+      "eczane_adi": "Çiğdem Eczanesi",
+      "eczane_adresi": "Kepez Beldesi Merkez Cami-Meydan Market Karşısı",
+      "eczane_telefon": "0 (286) 263-07-52"
+    },
+    {
+      "eczane_adi": "İskele Eczanesi",
+      "eczane_adresi": "Cumhuriyet Bulvarı No:34 Iskele Meydanı -Halk Bankası Yanı Merkez / Çanakkale",
+      "eczane_telefon": "0 (286) 213-57-55"
+    }
+  ]
+}
