@@ -1,0 +1,50 @@
+{% extends "taban.html" %}
+{% block content %}
+
+<p style='padding-top: 15px;'>
+
+<div class="container" style="margin: auto;">
+
+    <div class="card-body" style="margin: auto;">
+        <div class="alert alert-success" role="alert" style="margin: auto;">
+            <center>
+                <h3><i>{{ kullanici }}</i> | {{ sistem }} | {{ makine }}<br>{{ surum }}</h2>
+            </center>
+        </div>
+    </div>
+
+    <div class="card" style="margin: auto;">
+        <div class="card-body" style="margin: auto;">
+            <center>
+                <canvas id="ramKullanim" style="display: inline-block;"></canvas>
+                <canvas id="cpuKullanimi" style="display: inline-block;"></canvas>
+            </center>
+        </div>
+    </div>
+
+    <div class="card-body" style="margin: auto;">
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                {% for anahtar in anahtarlar %}
+                <th>{{ anahtar }}</th>
+                {% endfor %}
+                </tr>
+            </thead>
+            <tbody>
+                {% for veri in veriler %}
+                <tr>
+                {% for anahtar, icerik in veri.items() %}
+                <td>{{ veri[anahtar] }}</td>
+                {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='kaynakKullanimi.js') }}"></script>
+
+{% endblock %}
