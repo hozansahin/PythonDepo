@@ -1,0 +1,21 @@
+{% extends "taban.html" %}
+{% block content %}
+
+<p style='padding-top: 15px;'>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body" style="margin: auto;">
+                    <canvas id="ramKullanim" style="display: inline-block;"></canvas>
+                    <canvas id="cpuKullanimi" style="display: inline-block;"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='kaynakKullanimi.js') }}"></script>
+
+{% endblock %}
