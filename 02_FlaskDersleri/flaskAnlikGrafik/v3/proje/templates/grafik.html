@@ -1,0 +1,20 @@
+{% extends "taban.html" %}
+{% block content %}
+
+<p style='padding-top: 15px;'>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <canvas id="ramKullanim"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='ramKullanim.js') }}"></script>
+
+{% endblock %}
