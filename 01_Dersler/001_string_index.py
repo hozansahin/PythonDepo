@@ -1,3 +1,4 @@
+#print(hozan)
 mahalle = "ismetpaşa"
 print(mahalle)
 
